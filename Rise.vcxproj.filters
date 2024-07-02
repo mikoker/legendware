@@ -1,0 +1,989 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="data.cpp" />
+    <ClCompile Include="sdk\math\Vector2D.cpp">
+      <Filter>sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\math\Vector4D.cpp">
+      <Filter>sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\math\VMatrix.cpp">
+      <Filter>sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\characterset.cpp">
+      <Filter>sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\checksum_crc.cpp">
+      <Filter>sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\checksum_md5.cpp">
+      <Filter>sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\Color.cpp">
+      <Filter>sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\Convar.cpp">
+      <Filter>sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\threadtools.cpp">
+      <Filter>sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\UtlBuffer.cpp">
+      <Filter>sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\UtlString.cpp">
+      <Filter>sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\vfunc_hook.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_postscreeneffects.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_painttraverse.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="directx_renderer\renderer.cpp">
+      <Filter>directx_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp" />
+    <ClCompile Include="hooks\hooked_framestagenotify.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="features\esp.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\classes.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_present.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_wndproc.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_reset.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_lockcursor.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_createmove.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_overrideview.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="features\third_person.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\math.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="features\prediction.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\animations.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_setupbones.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_updateclientsideanimation.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_doextrabonesprocessing.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="features\movement.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\misc.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_shouldskipanimationframe.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_modifyeyeposition.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="features\local_animations.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\chams.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\proxy.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_processmovement.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_velocitymodifier.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="features\aim.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\imgui_ex\buttons.cpp">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\imgui_ex\child.cpp">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\imgui_ex\color_pickers.cpp">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\imgui_ex\combos.cpp">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\imgui_ex\draw_elements.cpp">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\imgui_ex\others.cpp">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\imgui_ex\selectables.cpp">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\imgui_ex\sliders.cpp">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\imgui_ex\tabs.cpp">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\tabs\visuals_tab.cpp">
+      <Filter>Gui\core\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\imgui_ex.cpp">
+      <Filter>Gui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\devkit\graphics\d3d9.cpp">
+      <Filter>Gui\devkit\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\devkit\utils\utils.cpp">
+      <Filter>Gui\devkit\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\third-party\imgui\impl\imgui_impl_dx9.cpp">
+      <Filter>Gui\third-party\imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\third-party\imgui\impl\imgui_impl_win32.cpp">
+      <Filter>Gui\third-party\imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\third-party\imgui\imgui.cpp">
+      <Filter>Gui\third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\third-party\imgui\imgui_draw.cpp">
+      <Filter>Gui\third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\third-party\imgui\imgui_widgets.cpp">
+      <Filter>Gui\third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\tabs\misc_tab.cpp">
+      <Filter>Gui\core\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\tabs\legit_tab.cpp">
+      <Filter>Gui\core\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\tabs\plist_tab.cpp">
+      <Filter>Gui\core\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\tabs\rage_tab.cpp">
+      <Filter>Gui\core\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\tabs\settings_tab.cpp">
+      <Filter>Gui\core\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\core\tabs\skins_tab.cpp">
+      <Filter>Gui\core\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="config\config.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_events.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="features\penetration.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_runcommand.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\RayTracer.cpp">
+      <Filter>sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="features\exploits.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_packetstart.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="features\world_esp.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\world_color.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\dormant.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_packetend.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="features\anti_aim.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_processinterpolatedlist.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="features\draw_beams.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\core\tabs\lua_tabs.cpp">
+      <Filter>Gui\core\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="features\fake_lag.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui Render\ImGUI_Renderer.cpp">
+      <Filter>ImGui Render</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\Memory.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_sequenceproxy.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\core\tabs\antiaim_tab.cpp">
+      <Filter>Gui\core\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\third-party\imgui\imgui_freetype.cpp">
+      <Filter>Gui\third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="features\features.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_getscreenaspectratio.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="features\logs.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_dispatchusermessage.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_performscreenoverlay.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_emitsound.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_listleavesinbox.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="features\knife_aim.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_standardblendingrules.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_rendermodel.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_isconnected.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_setupaliveloop.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_layertoindex.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_viewmodelinterpolate.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_notepredictionerror.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_clmove.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_clreadpackets.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_spotted.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_entityinterpolate.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked_getviewmodelfov.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\vfunc.cpp">
+      <Filter>sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="features\build_bones.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\legit_aim.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\devkit\blur\CBlurProcessor.cpp" />
+    <ClCompile Include="hooks\hooked_rendersmokeoverlay.cpp" />
+    <ClCompile Include="hooks\hooked_spawnsmokeeffect.cpp" />
+    <ClCompile Include="features\spectator_list.cpp" />
+    <ClCompile Include="features\sound_esp.cpp" />
+    <ClCompile Include="hooks\hooked_shouldcollide.cpp" />
+    <ClCompile Include="hooks\hooked_modifybones.cpp" />
+    <ClCompile Include="resource_manager.cpp" />
+    <ClCompile Include="directx_renderer\texture_pool.cpp" />
+    <ClCompile Include="directx_renderer\texure_info.cpp" />
+    <ClCompile Include="Lua\Clua.cpp" />
+    <ClCompile Include="Lua\CLuaHook.cpp" />
+    <ClCompile Include="gui\core\imgui_ex\lua_editor.cpp" />
+    <ClCompile Include="gui\third-party\imgui_text_editor\TextEditor.cpp" />
+    <ClCompile Include="hooks\hooked_returnaddress.cpp" />
+    <ClCompile Include="hooks\hooked_onrenderstart.cpp" />
+    <ClCompile Include="sdk\ItemSchema.cpp" />
+    <ClCompile Include="hooks\hooked_sv_cheats.cpp" />
+    <ClCompile Include="hooks\hooked_get_unverified_file_hashes.cpp" />
+    <ClCompile Include="hooks\hooked_enforce_competitive_cvar.cpp" />
+    <ClCompile Include="sdk\ImageLoader.cpp" />
+    <ClCompile Include="hooks\hooked_shutdown.cpp" />
+    <ClCompile Include="new_threads.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="data.h" />
+    <ClInclude Include="sdk\classes.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\crypt_str.h">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CClientState.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CInput.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IAppSystem.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IBaseClientDll.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientEntity.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientEntityList.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientMode.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientNetworkable.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientRenderable.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientThinkable.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientUnknown.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ICollideable.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IConVar.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ICvar.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IEngineSound.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IEngineTrace.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IGameEventManager.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IInputSystem.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ILocalize.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMaterialSystem.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMDLCache.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMoveHelper.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPanel.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPhysics.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPrediction.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IRenderView.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ISoundServices.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ISurface.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVDebugOverlay.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVEngineClient.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IViewRenderBeams.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVModelInfoClient.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVModelRender.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\memalloc.h">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\QAngle.hpp">
+      <Filter>sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\Vector.hpp">
+      <Filter>sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\Vector2D.hpp">
+      <Filter>sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\Vector4D.hpp">
+      <Filter>sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\VMatrix.hpp">
+      <Filter>sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\BaseHandle.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\BeamInfo_t.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\bf_write.h">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\CBoneAccessor.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\characterset.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\checksum_crc.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\checksum_md5.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\ClientClass.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\Color.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\Convar.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\CUserCmd.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\datamap.h">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\EHandle.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\Enums.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\FnvHash.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\GlobalVars.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\glow_outline_effect.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\IHandleEntity.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\KeyValues.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\platform.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\Recv.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\Studio.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\threadtools.h">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\UtlBuffer.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\UtlMemory.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\UtlString.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\UtlVector.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\UtlVectorSimple.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\vfunc.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\hooks.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\crypt_ptr.h">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="directx_renderer\color.hpp">
+      <Filter>directx_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="directx_renderer\font.hpp">
+      <Filter>directx_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="directx_renderer\renderer.h">
+      <Filter>directx_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h" />
+    <ClInclude Include="sdk\math.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="features\esp.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\vfunc_hook.hpp">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\crypt_hash.h">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="config\config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="features\third_person.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h" />
+    <ClInclude Include="features\prediction.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\MinHook.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="features\animations.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\movement.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\misc.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\local_animations.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\chams.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\proxy.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="features\aim.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\imgui_ex\buttons.h">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\imgui_ex\child.h">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\imgui_ex\color_pickers.h">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\imgui_ex\combos.h">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\imgui_ex\draw_elements.h">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\imgui_ex\others.h">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\imgui_ex\selectables.h">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\imgui_ex\sliders.h">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\imgui_ex\tabs.h">
+      <Filter>Gui\core\imgui_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\tabs\legit.h">
+      <Filter>Gui\core\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\tabs\misc.h">
+      <Filter>Gui\core\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\tabs\plist.h">
+      <Filter>Gui\core\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\tabs\rage.h">
+      <Filter>Gui\core\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\tabs\settings.h">
+      <Filter>Gui\core\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\tabs\skins.h">
+      <Filter>Gui\core\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\tabs\visuals.h">
+      <Filter>Gui\core\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\core.h">
+      <Filter>Gui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\core\imgui_ex.h">
+      <Filter>Gui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\devkit\graphics\d3d9.h">
+      <Filter>Gui\devkit\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\devkit\utils\utils.h">
+      <Filter>Gui\devkit\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\devkit\includes.h">
+      <Filter>Gui\devkit</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\third-party\imgui\impl\imgui_impl_dx9.h">
+      <Filter>Gui\third-party\imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\third-party\imgui\impl\imgui_impl_win32.h">
+      <Filter>Gui\third-party\imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\third-party\imgui\imconfig.h">
+      <Filter>Gui\third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\third-party\imgui\imgui.h">
+      <Filter>Gui\third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\third-party\imgui\imgui_internal.h">
+      <Filter>Gui\third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\third-party\imgui\imstb_rectpack.h">
+      <Filter>Gui\third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\third-party\imgui\imstb_textedit.h">
+      <Filter>Gui\third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\third-party\imgui\imstb_truetype.h">
+      <Filter>Gui\third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="features\penetration.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\m128.h">
+      <Filter>sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\RayTracer.hpp">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="features\exploits.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\dormant.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\world_esp.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\world_color.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\anti_aim.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\draw_beams.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="gui\core\tabs\lua.h">
+      <Filter>Gui\core\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="features\fake_lag.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui Render\ImGUI_Renderer.h">
+      <Filter>ImGui Render</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ItemSchema.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Memory.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\CSGameRulesProxy.h">
+      <Filter>sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\core\tabs\antiaim.h">
+      <Filter>Gui\core\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMatRenderContext.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IRefCounted.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IStudioRender.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ITexture.hpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\mergedmdl.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\third-party\imgui\imgui_freetype.h">
+      <Filter>Gui\third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="features\features.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\logs.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\knife_aim.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\build_bones.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\legit_aim.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\devkit\blur\CBlurProcessor.h" />
+    <ClInclude Include="features\spectator_list.h" />
+    <ClInclude Include="features\sound_esp.h" />
+    <ClInclude Include="resource_manager.h" />
+    <ClInclude Include="Lua\HTTPRequest.hpp" />
+    <ClInclude Include="Lua\menu_item.h" />
+    <ClInclude Include="protect\SecureEngineCustomVMs.h" />
+    <ClInclude Include="protect\SecureEngineCustomVMs_VC_inline.h" />
+    <ClInclude Include="protect\ThemidaSDK.h" />
+    <ClInclude Include="gui\third-party\shaders\circle_scissor_pixel.h" />
+    <ClInclude Include="gui\third-party\shaders\generic_vertex.h" />
+    <ClInclude Include="Libs\zlib\include\gzguts.h" />
+    <ClInclude Include="Libs\zlib\include\zutil.h" />
+    <ClInclude Include="Libs\zlib\include\zlib.h" />
+    <ClInclude Include="Libs\zlib\include\zconf.h" />
+    <ClInclude Include="Libs\zlib\include\trees.h" />
+    <ClInclude Include="Libs\zlib\include\inflate.h" />
+    <ClInclude Include="Libs\zlib\include\inffixed.h" />
+    <ClInclude Include="Libs\zlib\include\inffast.h" />
+    <ClInclude Include="Libs\zlib\include\inftrees.h" />
+    <ClInclude Include="Libs\zlib\include\deflate.h" />
+    <ClInclude Include="Libs\zlib\include\crc32.h" />
+    <ClInclude Include="Libs\gzip\include\gzip\compress.hpp" />
+    <ClInclude Include="Libs\gzip\include\gzip\config.hpp" />
+    <ClInclude Include="Libs\gzip\include\gzip\decompress.hpp" />
+    <ClInclude Include="Libs\gzip\include\gzip\utils.hpp" />
+    <ClInclude Include="Libs\gzip\include\gzip\version.hpp" />
+    <ClInclude Include="Libs\freetype\ft2build.h" />
+    <ClInclude Include="Libs\cache\fifo_cache_policy.hpp" />
+    <ClInclude Include="Libs\cache\lru_cache_policy.hpp" />
+    <ClInclude Include="Libs\cache\lfu_cache_policy.hpp" />
+    <ClInclude Include="Libs\cache\cache_policy.hpp" />
+    <ClInclude Include="Libs\cache\cache.hpp" />
+    <ClInclude Include="Lua\Clua.h" />
+    <ClInclude Include="directx_renderer\texture_info.hpp" />
+    <ClInclude Include="directx_renderer\texture_pool.hpp" />
+    <ClInclude Include="Lua\CLuaHook.h" />
+    <ClInclude Include="Lua\config.hpp" />
+    <ClInclude Include="Lua\forward.hpp" />
+    <ClInclude Include="Lua\sol.hpp" />
+    <ClInclude Include="httplib.h" />
+    <ClInclude Include="gui\core\imgui_ex\lua_editor.h" />
+    <ClInclude Include="gui\third-party\imgui_text_editor\TextEditor.h" />
+    <ClInclude Include="protect\crypt_bytes.h" />
+    <ClInclude Include="protect\crypt_call.h" />
+    <ClInclude Include="sdk\interfaces\IPanorama.hpp" />
+    <ClInclude Include="sdk\interfaces\IClientLeafSystem.hpp" />
+    <ClInclude Include="sdk\interfaces\VTFTexture.h" />
+    <ClInclude Include="sdk\interfaces\IRenderToRTHelper.hpp" />
+    <ClInclude Include="sdk\ImageLoader.h" />
+    <ClInclude Include="new_threads.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{eee3dbec-789a-4bb4-880d-900b7d1ccb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\interfaces">
+      <UniqueIdentifier>{1814c379-883b-4d2e-af4a-722a87f22651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\math">
+      <UniqueIdentifier>{2a72a676-02f9-40eb-8d2f-ffce34df8174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\misc">
+      <UniqueIdentifier>{9c2f6f92-2bee-48ae-982c-14939cd44ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{cdcc69c4-d042-47ed-9fee-b307f9d2214d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx_renderer">
+      <UniqueIdentifier>{65019bb1-6257-4063-b0f4-c39ccdc08b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features">
+      <UniqueIdentifier>{bc20f3c9-9f3f-47fa-882d-4bede042e042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{ff6e2e95-b7c7-4aec-8735-e9646091cbf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui">
+      <UniqueIdentifier>{b881f5e8-9eaa-45c1-a368-5d08ad7ea930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\core">
+      <UniqueIdentifier>{c7b6805a-0ecf-4538-975a-15200b8c65d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\core\imgui_ex">
+      <UniqueIdentifier>{921a141b-bf6b-4b69-a52d-67e49f16f94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\core\tabs">
+      <UniqueIdentifier>{b4d79146-1d31-4bd8-8e3f-8b49c7cfae90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\devkit">
+      <UniqueIdentifier>{409066e5-32f1-4469-92e2-088cc4e6186b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\devkit\graphics">
+      <UniqueIdentifier>{3d0c87ff-bb1e-452b-b3b5-d5c0ed92d04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\devkit\utils">
+      <UniqueIdentifier>{24114ba9-e031-41e5-b8cb-b3ec50dc84a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\third-party">
+      <UniqueIdentifier>{1b194d7f-d042-40a1-a2a6-fa9d9d54b9d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\third-party\imgui">
+      <UniqueIdentifier>{2c4ab36a-96e6-4692-85c2-452afff14e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\third-party\imgui\impl">
+      <UniqueIdentifier>{d98aae85-12da-4d45-b2fe-e2db27badd09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\third-party\imgui_text_editor">
+      <UniqueIdentifier>{b5032834-2987-4feb-b31e-d714f2906d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\third-party\resources">
+      <UniqueIdentifier>{d770ac33-fc4d-486d-b95e-b8aaa251fb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\third-party\resources\fonts">
+      <UniqueIdentifier>{ba2ab48b-f920-4e4e-a945-1c5a65261947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\third-party\resources\images">
+      <UniqueIdentifier>{7245f651-d489-441a-8c7b-ba457bb39cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{2b4be383-b190-4fcf-9caa-3c022337786d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{477df4cf-2ac9-4e26-869e-1aa5549ff15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua\lua">
+      <UniqueIdentifier>{5120f106-423f-4a20-b324-a9ffb22e1784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua\lua\src">
+      <UniqueIdentifier>{26878cd9-3247-412d-98a3-f285729f62f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua\lua\src\host">
+      <UniqueIdentifier>{4fdae871-dd5c-486e-a1f0-d19896fbf6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua\lua\src\jit">
+      <UniqueIdentifier>{605c6784-a6f5-4973-8a09-eff19bcca80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui Render">
+      <UniqueIdentifier>{de2cde84-e3cd-463d-825a-d9f4ca08e49a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protect">
+      <UniqueIdentifier>{cd88a993-3c8e-4c83-bbfb-00e908830448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tls_client">
+      <UniqueIdentifier>{bdf5d51f-7aa9-4262-bec2-6549d2738143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\Changer">
+      <UniqueIdentifier>{d1a52b10-b441-4760-8a90-6c9f56f99e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\Preview">
+      <UniqueIdentifier>{fa031145-b3d5-416b-897e-0e9a11e5a14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threading">
+      <UniqueIdentifier>{3c47f13c-6861-49c3-ac75-ab323ef04882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket">
+      <UniqueIdentifier>{13cb25f7-a984-419d-963c-47f879628568}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libs\freetype\freetype.lib" />
+    <Library Include="hooks\MinHook.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include=".gitignore" />
+    <None Include="tls_client\OpenSSL\dso.pdb" />
+    <None Include="tls_client\OpenSSL\libssl-1_1.pdb" />
+    <None Include="tls_client\OpenSSL\ossl_static.pdb" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rise", "Rise.vcxproj", "{FBAB838B-70FD-40F7-ADB6-178A4E7EB16F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBAB838B-70FD-40F7-ADB6-178A4E7EB16F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FBAB838B-70FD-40F7-ADB6-178A4E7EB16F}.Debug|Win32.Build.0 = Debug|Win32
+		{FBAB838B-70FD-40F7-ADB6-178A4E7EB16F}.Release|Win32.ActiveCfg = Release|Win32
+		{FBAB838B-70FD-40F7-ADB6-178A4E7EB16F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2232F613-9BD0-4228-87B1-1728836F5777}
+	EndGlobalSection
+EndGlobal
